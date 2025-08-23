@@ -7,7 +7,7 @@ This repository contains the code and analysis for my MSc dissertation at the Lo
 ## Repository Structure  
 
 - **`Study1_2.ipynb`**  
-  Implements **hierarchical clustering and t-SNE** of 39 binary facial attributes (Study 1a), a cluster-based analysis of attractiveness and gender differences with **logistic regression(Study 1b), and predictive modelling with XGBoost + SHAP** (Study 2).  
+  Implements **hierarchical clustering and t-SNE** of 39 binary facial attributes (Study 1a), a cluster-based analysis of attractiveness and gender differences with **logistic regression** (Study 1b), and predictive modelling with XGBoost + SHAP** (Study 2).  
 
 - **`Study3.ipynb`**  
   Fine-tunes a **ResNet-18 classifier** (with dropout & freezing layers) on CelebA to predict beauty judgement. Includes data preprocessing (cropping, resizing to 224×224, normalisation), protected group construction (Young/Old × Male/Female), and subgroup evaluation using **Grad-CAM** visualisations and fairness metrics (Demographic Parity, Equal Opportunity, worst-group accuracy).  
