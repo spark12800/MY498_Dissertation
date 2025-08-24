@@ -19,6 +19,25 @@ This repository contains the code and analysis for my MSc dissertation at the Lo
   List of dependencies for replicating the environment.  
 
 ---
+## Dataset  
+This project uses the **CelebA dataset** released by the **Chinese University of Hong Kong (CUHK) Multimedia Lab**. The dataset is provided for non-commercial research purposes only.  
+
+- [CUHK CelebA homepage](https://mmlab.ie.cuhk.edu.hk/projects/CelebA.html)  
+- [Kaggle mirror](https://www.kaggle.com/datasets/jessicali9530/celeba-dataset)  
+
+⚠️ Due to licensing, the dataset is **not included** in this repository.  
+
+To download via the Kaggle API:  
+```python
+from kaggle.api.kaggle_api_extended import KaggleApi
+
+api = KaggleApi()
+api.authenticate()
+api.dataset_download_files(
+    "jessicali9530/celeba-dataset", 
+    path="celeba_data", 
+    unzip=True
+)
 
 ## Setup & Requirements  
 
