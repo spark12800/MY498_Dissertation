@@ -38,6 +38,7 @@ api.dataset_download_files(
     path="celeba_data", 
     unzip=True
 )
+```
 
 ## Setup & Requirements  
 
